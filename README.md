@@ -1,5 +1,5 @@
-# GroceriesMaster
-Great python script for splitting bills with Housemates. Especially on Costco runs! :D
+# GroceriesSplitter
+Great python script for splitting bills with Housemates.
 
 **why**
 
@@ -7,7 +7,9 @@ When you shop with your housemates and one person pays for everything, it is suc
 
 **How to run script and requirements**
 
-Have xldr python modue downloaded. See https://pypi.python.org/pypi/xlrd. 
+I have included the xldir python module in the repository. It is a library for developers to extract data from Microsoft Excel (tm) spreadsheet files.
+
+The version I included might be outdated. See https://pypi.python.org/pypi/xlrd for further details. 
 
 Extract file and run setup.py file like: python setup.py install
 
@@ -24,3 +26,5 @@ chmod u+x NewGroceries.py
 **How to use**
 
 Follow the format in the sample spreadsheet in *groceries.xls*.
+
+Courtesy of Ryan Fu.
